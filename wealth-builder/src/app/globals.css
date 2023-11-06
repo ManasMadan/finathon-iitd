@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  min-height: 100vh;
+}
+.main {
+  background-image: url("/bg.png");
+  min-height: 100vh;
+  max-width: 500px;
+  margin: auto auto;
+}

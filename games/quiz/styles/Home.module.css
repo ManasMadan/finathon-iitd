@@ -1,0 +1,112 @@
+.app {
+  height: 100vh;
+  display: flex;
+  background: rgb(196, 21, 25);
+  background: radial-gradient(
+    circle,
+    rgb(196, 21, 25) 26%,
+    rgb(197, 22, 66) 52%,
+    rgb(198, 18, 63) 93%
+  );
+}
+.main {
+  display: flex;
+  width: 75%;
+  color: aliceblue;
+  flex-direction: column;
+  background: url("/bg3.jpg") center ;
+}
+
+.top {
+  height: 50%;
+  position: relative;
+}
+
+.timer {
+  /* color: rgb(228, 199, 33); */
+  background-color: azure;
+  color: rgb(196, 21, 25);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid rgb(196, 21, 25);
+  /* border: azure; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 650;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+}
+
+.bottom {
+  height: 50%;
+}
+
+.trivia {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.question {
+  width: 80%;
+  /* background-color: rgb(74, 22, 134); */
+  background-color: rgb(196, 21, 25);
+  border: 5px solid azure;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.pyramid {
+  /* color: rgb(252,236, 9); */
+  color: azure;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.moneyList {
+  list-style: none;
+  width: 100%;
+  padding: 24px;
+}
+
+.moneyListItemNumber {
+  font-size: 18px;
+  font-weight: 100;
+  width: 30%;
+}
+.moneyListItemAmount {
+  font-size: 20px;
+}
+
+.endtext {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: brown;
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.won {
+  font-size: 36px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
